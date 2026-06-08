@@ -1,0 +1,25 @@
+{
+  "fecha": "2026-06-08",
+  "n_carreras": 163,
+  "n_universidades": 14,
+  "campo_usado": "ambos",
+  "metodo_linkage": "ward",
+  "universidades": {
+    "EPN": 24,
+    "ESPOL": 15,
+    "UPS": 14,
+    "ESPOCH": 13,
+    "UTM": 13,
+    "UCE": 12,
+    "UG": 11,
+    "USFQ": 11,
+    "UDLA": 9,
+    "UTPL": 9,
+    "ESPE": 8,
+    "UCSG": 8,
+    "PUCE": 8,
+    "UTN": 8
+  },
+  "png": "D:\\Repositories\\TIC-D\\outputs\\dendrograma_2026-06-08.png",
+  "pdf": "D:\\Repositories\\TIC-D\\outputs\\dendrograma_2026-06-08.pdf"
+}

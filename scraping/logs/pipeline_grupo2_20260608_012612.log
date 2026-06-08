@@ -1,0 +1,23 @@
+01:26:16 | INFO     | Filtro aplicado: ['UEES'] → 1 universidades
+01:26:16 | INFO     | CSV destino: D:\Repositories\TIC-D\scraping\data\carreras_grupo2.csv
+01:26:16 | INFO     | Registros ya procesados: 0
+01:26:16 | INFO     | ============================================================
+01:26:16 | INFO     | INICIO — Grupo 2 | 1 universidades | 9 carreras
+01:26:16 | INFO     | ============================================================
+01:26:16 | INFO     | 
+▶ UEES — Universidad de Especialidades Espíritu Santo - UEES
+01:26:16 | WARNING  |   ✗ ADMINISTRACIÓN DE EMPRESAS → ERROR_FETCH
+01:26:16 | WARNING  |   ✗ CIENCIA DE DATOS → ERROR_FETCH
+01:26:17 | WARNING  |   ✗ COMPUTACIÓN → ERROR_FETCH
+01:26:17 | WARNING  |   ✗ DESARROLLO, OPERACIÓN Y SEGURIDAD DE SOFTWARE → ERROR_FETCH
+01:26:17 | WARNING  |   ✗ ECONOMÍA → ERROR_FETCH
+01:26:18 | WARNING  |   ✗ INGENIERÍA AMBIENTAL → ERROR_FETCH
+01:26:18 | WARNING  |   ✗ INGENIERÍA CIVIL → ERROR_FETCH
+01:26:19 | WARNING  |   ✗ INGENIERÍA INDUSTRIAL → ERROR_FETCH
+01:26:19 | WARNING  |   ✗ TELECOMUNICACIONES → ERROR_FETCH
+01:26:19 | INFO     | 
+============================================================
+01:26:19 | INFO     | FIN — 3s | ✓ 0 OK | ⚠ 0 WARN | ✗ 9 ERROR | ↷ 0 omitidos
+01:26:19 | INFO     | CSV guardado en: D:\Repositories\TIC-D\scraping\data\carreras_grupo2.csv
+01:26:19 | INFO     | ============================================================
+01:26:19 | INFO     | Resumen guardado en: D:\Repositories\TIC-D\scraping\logs\resumen_grupo2_20260608.json

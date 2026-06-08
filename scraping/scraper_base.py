@@ -14,6 +14,8 @@ registro queda con los campos vacíos y status="ERROR".
 import time
 import logging
 import requests
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from datetime import date
 from bs4 import BeautifulSoup
 import anthropic
@@ -73,7 +75,7 @@ class CarreraScraper:
     def fetch_html(self, url: str) -> str | None:
         """Descarga el HTML de la URL. Retorna None si falla."""
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+            resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT, verify=False)
             resp.raise_for_status()
             resp.encoding = resp.apparent_encoding or "utf-8"
             return resp.text

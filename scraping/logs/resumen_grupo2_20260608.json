@@ -1,0 +1,13 @@
+{
+  "grupo": 2,
+  "fecha": "2026-06-08T01:30:31.590767",
+  "universidades": 1,
+  "carreras_total": 9,
+  "resultados": {
+    "ok": 6,
+    "error": 3,
+    "warn": 0,
+    "skip": 0
+  },
+  "csv": "D:\\Repositories\\TIC-D\\scraping\\data\\carreras_grupo2.csv"
+}

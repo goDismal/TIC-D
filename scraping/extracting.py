@@ -38,18 +38,6 @@ lista_perfiles = []
 #Extracción de los urls de carreras
 urls_carreras = soup_main.select('.loc.mntl-link-list li a')
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Extraer los enlaces de las carreras de grado
 soup = BeautifulSoup(response_base.text, "html.parser")
 
