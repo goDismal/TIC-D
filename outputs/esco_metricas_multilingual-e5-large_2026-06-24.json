@@ -1,0 +1,17 @@
+{
+  "modelo": "multilingual-e5-large",
+  "metodo_linkage": "ward",
+  "n_carreras": 163,
+  "cophenetic_corr": 0.6766,
+  "silhouette_scores": {
+    "k=5": -0.2322,
+    "k=7": -0.2745,
+    "k=10": -0.4289,
+    "k=15": -0.594
+  },
+  "pureza_clusters_k10": 0.5927,
+  "interpretacion": {
+    "cophenetic": "Aceptable (0.6-0.7)",
+    "pureza": "Baja (<0.6)"
+  }
+}

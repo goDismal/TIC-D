@@ -1,0 +1,17 @@
+{
+  "modelo": "bge-m3",
+  "metodo_linkage": "ward",
+  "n_carreras": 163,
+  "cophenetic_corr": 0.6527,
+  "silhouette_scores": {
+    "k=5": 0.4853,
+    "k=7": 0.482,
+    "k=10": 0.501,
+    "k=15": 0.4939
+  },
+  "pureza_clusters_k10": 0.4972,
+  "interpretacion": {
+    "cophenetic": "Aceptable (0.6-0.7)",
+    "pureza": "Baja (<0.6)"
+  }
+}
