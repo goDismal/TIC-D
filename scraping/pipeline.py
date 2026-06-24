@@ -34,10 +34,12 @@ from pathlib import Path
 
 # ── Rutas ──────────────────────────────────────────────────────────────────────
 BASE_DIR  = Path(__file__).parent
+from datetime import date
+_HOY      = date.today().isoformat()
 DATA_DIR  = BASE_DIR / "data"
-LOG_DIR   = BASE_DIR / "logs"
+LOG_DIR   = BASE_DIR / "logs" / _HOY
 DATA_DIR.mkdir(exist_ok=True)
-LOG_DIR.mkdir(exist_ok=True)
+LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Logging dual: consola + archivo ───────────────────────────────────────────
 def setup_logging(grupo: int) -> logging.Logger:
