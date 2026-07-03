@@ -1,0 +1,18 @@
+{
+  "nivel": 2,
+  "modelo": "BAAI/bge-m3",
+  "metodo": "ward",
+  "n_carreras": 163,
+  "cophenetic": 0.7303,
+  "interpretacion_cophenetic": "Bueno (0.7-0.8)",
+  "silhouette": {
+    "k=5": 0.2279,
+    "k=7": 0.2692,
+    "k=10": 0.3281,
+    "k=15": 0.4047
+  },
+  "silhouette_k_optimo": 15,
+  "pureza_k10": 0.5276,
+  "interpretacion_pureza": "Baja (<0.6)",
+  "fecha": "2026-07-03"
+}

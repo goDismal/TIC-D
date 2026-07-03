@@ -1,0 +1,58 @@
+[
+  {
+    "Nivel": "1 — TF-IDF",
+    "Modelo/Método": "TF-IDF (3000 features, bigramas)",
+    "Representación": "Frecuencia de palabras",
+    "Cophenetic": 0.5969,
+    "Silhouette k=10": 0.1997,
+    "Pureza k=10": 0.7353
+  },
+  {
+    "Nivel": "2 — Embeddings directos",
+    "Modelo/Método": "bge-m3",
+    "Representación": "Vector semántico (1024 dims)",
+    "Cophenetic": 0.7303,
+    "Silhouette k=10": 0.3281,
+    "Pureza k=10": 0.5276
+  },
+  {
+    "Nivel": "2 — Embeddings directos",
+    "Modelo/Método": "multilingual-e5-large",
+    "Representación": "Vector semántico (1024 dims)",
+    "Cophenetic": 0.7641,
+    "Silhouette k=10": 0.3379,
+    "Pureza k=10": 0.526
+  },
+  {
+    "Nivel": "3 — Vectores ESCO",
+    "Modelo/Método": "BAAI/bge-m3",
+    "Representación": "Vector habilidades ESCO (4241 dims)",
+    "Cophenetic": 0.7303,
+    "Silhouette k=10": 0.3281,
+    "Pureza k=10": 0.5276
+  },
+  {
+    "Nivel": "3 — Vectores ESCO",
+    "Modelo/Método": "intfloat/multilingual-e5-large",
+    "Representación": "Vector habilidades ESCO (4241 dims)",
+    "Cophenetic": 0.7641,
+    "Silhouette k=10": 0.3379,
+    "Pureza k=10": 0.526
+  },
+  {
+    "Nivel": "3 — Vectores ESCO",
+    "Modelo/Método": "bge-m3",
+    "Representación": "Vector habilidades ESCO (4241 dims)",
+    "Cophenetic": 0.6527,
+    "Silhouette k=10": 0.3718,
+    "Pureza k=10": 0.4972
+  },
+  {
+    "Nivel": "3 — Vectores ESCO",
+    "Modelo/Método": "multilingual-e5-large",
+    "Representación": "Vector habilidades ESCO (4241 dims)",
+    "Cophenetic": 0.6766,
+    "Silhouette k=10": 0.4232,
+    "Pureza k=10": 0.5927
+  }
+]

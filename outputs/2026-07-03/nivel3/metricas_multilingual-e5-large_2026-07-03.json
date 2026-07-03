@@ -1,0 +1,69 @@
+{
+  "modelo": "multilingual-e5-large",
+  "metodo": "ward",
+  "n_carreras": 163,
+  "cophenetic": 0.6766,
+  "interpretacion_cophenetic": "Aceptable (0.6-0.7)",
+  "silhouette": {
+    "k=5": 0.313,
+    "k=7": 0.3758,
+    "k=10": 0.4232,
+    "k=15": 0.4246
+  },
+  "silhouette_k_optimo": 15,
+  "pureza_k10": 0.5927,
+  "interpretacion_pureza": "Baja (<0.6) — puede deberse a variaciones de nombre entre universidades",
+  "pureza_por_cluster": {
+    "1": {
+      "n": 12,
+      "pureza": 1.0,
+      "nombre_mayoria": "administración de empresas"
+    },
+    "2": {
+      "n": 11,
+      "pureza": 1.0,
+      "nombre_mayoria": "economía"
+    },
+    "3": {
+      "n": 9,
+      "pureza": 0.4444,
+      "nombre_mayoria": "matemática"
+    },
+    "4": {
+      "n": 26,
+      "pureza": 0.0385,
+      "nombre_mayoria": "licenciatura administracion de empresas"
+    },
+    "5": {
+      "n": 23,
+      "pureza": 0.3913,
+      "nombre_mayoria": "mecánica"
+    },
+    "6": {
+      "n": 18,
+      "pureza": 0.4444,
+      "nombre_mayoria": "ingeniería industrial"
+    },
+    "7": {
+      "n": 12,
+      "pureza": 1.0,
+      "nombre_mayoria": "ingeniería civil"
+    },
+    "8": {
+      "n": 7,
+      "pureza": 0.5714,
+      "nombre_mayoria": "ingeniería ambiental"
+    },
+    "9": {
+      "n": 27,
+      "pureza": 0.4815,
+      "nombre_mayoria": "computación"
+    },
+    "10": {
+      "n": 18,
+      "pureza": 0.5556,
+      "nombre_mayoria": "telecomunicaciones"
+    }
+  },
+  "fecha": "2026-07-03"
+}

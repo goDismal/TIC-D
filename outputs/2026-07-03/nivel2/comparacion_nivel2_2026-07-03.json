@@ -1,0 +1,20 @@
+[
+  {
+    "Modelo": "bge-m3",
+    "Cophenetic": 0.7303,
+    "Silhouette k=5": 0.2279,
+    "Silhouette k=7": 0.2692,
+    "Silhouette k=10": 0.3281,
+    "Silhouette k=15": 0.4047,
+    "Pureza k=10": 0.5276
+  },
+  {
+    "Modelo": "multilingual-e5-large",
+    "Cophenetic": 0.7641,
+    "Silhouette k=5": 0.2328,
+    "Silhouette k=7": 0.2684,
+    "Silhouette k=10": 0.3379,
+    "Silhouette k=15": 0.4065,
+    "Pureza k=10": 0.526
+  }
+]

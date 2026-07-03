@@ -1,0 +1,18 @@
+{
+  "nivel": 2,
+  "modelo": "intfloat/multilingual-e5-large",
+  "metodo": "ward",
+  "n_carreras": 163,
+  "cophenetic": 0.7641,
+  "interpretacion_cophenetic": "Bueno (0.7-0.8)",
+  "silhouette": {
+    "k=5": 0.2328,
+    "k=7": 0.2684,
+    "k=10": 0.3379,
+    "k=15": 0.4065
+  },
+  "silhouette_k_optimo": 15,
+  "pureza_k10": 0.526,
+  "interpretacion_pureza": "Baja (<0.6)",
+  "fecha": "2026-07-03"
+}

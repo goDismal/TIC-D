@@ -39,7 +39,7 @@ CARRERAS_CSV = BASE_DIR / "data" / "processed" / "carreras_homologas.csv"
 ESCO_CSV     = BASE_DIR / "data" / "raw" / "skills_es.csv"
 PROCESSED    = BASE_DIR / "data" / "processed"
 from datetime import date
-OUTPUT_DIR = BASE_DIR / "outputs" / date.today().isoformat()
+OUTPUT_DIR = BASE_DIR / "outputs" / date.today().isoformat() / "nivel3"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 PROCESSED.mkdir(exist_ok=True)
 

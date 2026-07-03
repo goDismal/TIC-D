@@ -44,7 +44,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 BASE_DIR   = Path(__file__).parent.parent
 PROCESSED  = BASE_DIR / "data" / "processed"
 from datetime import date
-OUTPUT_DIR = BASE_DIR / "outputs" / date.today().isoformat()
+OUTPUT_DIR = BASE_DIR / "outputs" / date.today().isoformat() / "nivel3"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Logging ────────────────────────────────────────────────────────────────────
@@ -130,10 +130,12 @@ def generar_tabla_habilidades(
 
     # Tabla pivot: carreras EPN × habilidades
     pivot = df_epn.pivot_table(
-        index="nombre", columns="rank",
-        values="skill_label", aggfunc="first"
+        index='rank',
+        columns='nombre',
+        values='skill_label',
+        aggfunc='first'
     )
-    pivot.columns = [f"#{i}" for i in pivot.columns]
+    pivot.index = [f'#{int(i)}' for i in pivot.index]
 
     # Guardar CSV completo (todas las universidades)
     df_all = df_topk[df_topk["rank"] <= top_k].copy()

@@ -1,0 +1,69 @@
+{
+  "modelo": "bge-m3",
+  "metodo": "ward",
+  "n_carreras": 163,
+  "cophenetic": 0.6527,
+  "interpretacion_cophenetic": "Aceptable (0.6-0.7)",
+  "silhouette": {
+    "k=5": 0.3223,
+    "k=7": 0.3591,
+    "k=10": 0.3718,
+    "k=15": 0.4219
+  },
+  "silhouette_k_optimo": 15,
+  "pureza_k10": 0.4972,
+  "interpretacion_pureza": "Baja (<0.6) — puede deberse a variaciones de nombre entre universidades",
+  "pureza_por_cluster": {
+    "1": {
+      "n": 15,
+      "pureza": 0.8,
+      "nombre_mayoria": "administración de empresas"
+    },
+    "2": {
+      "n": 11,
+      "pureza": 1.0,
+      "nombre_mayoria": "economía"
+    },
+    "3": {
+      "n": 10,
+      "pureza": 0.4,
+      "nombre_mayoria": "matemática"
+    },
+    "4": {
+      "n": 6,
+      "pureza": 0.1667,
+      "nombre_mayoria": "ciencias de datos e inteligencia artificial"
+    },
+    "5": {
+      "n": 21,
+      "pureza": 0.0476,
+      "nombre_mayoria": "ingenieria agroindustria"
+    },
+    "6": {
+      "n": 26,
+      "pureza": 0.3077,
+      "nombre_mayoria": "mecánica"
+    },
+    "7": {
+      "n": 18,
+      "pureza": 0.3889,
+      "nombre_mayoria": "ingeniería química"
+    },
+    "8": {
+      "n": 36,
+      "pureza": 0.3611,
+      "nombre_mayoria": "computación"
+    },
+    "9": {
+      "n": 12,
+      "pureza": 1.0,
+      "nombre_mayoria": "ingeniería civil"
+    },
+    "10": {
+      "n": 8,
+      "pureza": 0.5,
+      "nombre_mayoria": "ingeniería ambiental"
+    }
+  },
+  "fecha": "2026-07-03"
+}

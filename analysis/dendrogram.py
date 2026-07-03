@@ -41,7 +41,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 BASE_DIR   = Path(__file__).parent.parent
 INPUT_CSV  = BASE_DIR / "data" / "processed" / "carreras_homologas.csv"
 from datetime import date
-OUTPUT_DIR = BASE_DIR / "outputs" / date.today().isoformat()
+OUTPUT_DIR = BASE_DIR / "outputs" / date.today().isoformat() / "nivel1"
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Stopwords español ──────────────────────────────────────────────────────────
